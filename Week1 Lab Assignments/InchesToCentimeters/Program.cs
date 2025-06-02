@@ -1,5 +1,5 @@
 ﻿/*
- * * Florentino Aguirre
+ * Florentino Aguirre
  * CPSC 23000 .NET Programming
  * Week 1 Lab Assignment
  * Inch to Centimeters Calculator 
