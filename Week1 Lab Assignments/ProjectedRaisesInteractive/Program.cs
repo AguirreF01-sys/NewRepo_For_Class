@@ -9,14 +9,14 @@
 
 using System;
 
-namespace ProjectedRaises
+namespace ProjectedRaisesInteractive
 {
     internal class Program
     {
         static void Main(string[] args)
         {
             //Variable to hold the raise percentage
-            const double RAISE_PERCENT = 0.04;
+            const double raisePercent = 0.04;
 
             // Prompt the user for the salaries of three employees using a method to read input
             Console.Write("Enter salary for employee 1: ");
@@ -29,9 +29,9 @@ namespace ProjectedRaises
             double salary3 = ReadDoubleFromConsole();
 
             // update the salaries with the raise percentage
-            double newSalary1 = salary1 * (1 + RAISE_PERCENT);
-            double newSalary2 = salary2 * (1 + RAISE_PERCENT);
-            double newSalary3 = salary3 * (1 + RAISE_PERCENT);
+            double newSalary1 = salary1 * (1 + raisePercent);
+            double newSalary2 = salary2 * (1 + raisePercent);
+            double newSalary3 = salary3 * (1 + raisePercent);
 
             // Display the new salaries
             Console.WriteLine();

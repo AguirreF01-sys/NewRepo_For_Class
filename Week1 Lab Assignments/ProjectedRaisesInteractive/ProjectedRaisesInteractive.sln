@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36121.58 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectedRaisesInteractive", "ProjectedRaisesInteractive.csproj", "{DF76DAA1-2C0E-49DC-A101-1AEB08F4A234}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF76DAA1-2C0E-49DC-A101-1AEB08F4A234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF76DAA1-2C0E-49DC-A101-1AEB08F4A234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF76DAA1-2C0E-49DC-A101-1AEB08F4A234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF76DAA1-2C0E-49DC-A101-1AEB08F4A234}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB11B5CA-A534-4D36-8136-C463C5D5D091}
+	EndGlobalSection
+EndGlobal
