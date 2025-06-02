@@ -8,7 +8,7 @@
 
 using System;
 
-namespace InchesToCentimeters
+namespace InchesToCentimetersInteractive
 {
     internal class Program
     {
