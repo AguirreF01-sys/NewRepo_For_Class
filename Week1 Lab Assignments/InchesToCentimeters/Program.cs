@@ -3,7 +3,7 @@
  * CPSC 23000 .NET Programming
  * Week 1 Lab Assignment
  * Inch to Centimeters Calculator 
- * Program will take user input to represent inch value and display the conversion amount for centimeters. 
+ * Program will take inch value and display the conversion amount for centimeters. 
  */
 
 using System;
