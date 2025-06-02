@@ -14,23 +14,17 @@ namespace InchesToCentimeters
     {
         static void Main(string[] args)
         {
-            //Variable to store conversion amount
+            // variable to hold the conversion factor from inches to centimeters
             const double cmPerInch = 2.54;
 
-            //Prompt user to enter inch value and store in variable
-            Console.Write("Enter measurement in inches: ");
-            string input = Console.ReadLine();
+            // variable to hold the number of inches
+            double inches = 3;
 
-            //As long ans input is appropriate value conversion amount will display
-            if (double.TryParse(input, out double inches))
-            {
-                double centimeters = inches * cmPerInch;
-                Console.WriteLine("{0} inches is {1} centimeters.", inches, centimeters);
-            }
-            else
-            {
-                Console.WriteLine("Invalid input.");
-            }
+            // calculate the equivalent centimeters
+            double centimeters = inches * cmPerInch;
+
+            // display the result
+            Console.WriteLine("{0} inches is {1} centimeters.", inches, centimeters);
         }
     }
 }
