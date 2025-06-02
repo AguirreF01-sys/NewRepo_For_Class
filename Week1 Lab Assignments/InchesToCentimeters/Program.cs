@@ -14,9 +14,14 @@ namespace InchesToCentimeters
     {
         static void Main(string[] args)
         {
+            //Variable to store conversion amount
             const double cmPerInch = 2.54;
+
+            //Prompt user to enter inch value and store in variable
             Console.Write("Enter measurement in inches: ");
             string input = Console.ReadLine();
+
+            //As long ans input is appropriate value conversion amount will display
             if (double.TryParse(input, out double inches))
             {
                 double centimeters = inches * cmPerInch;
